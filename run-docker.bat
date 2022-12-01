@@ -1,0 +1,1 @@
+docker build --file src\main\docker\Dockerfile --build-arg JAR_FILE=build/libs/spring-boot-docker-0.0.1-SNAPSHOT.jar -t springio/gs-spring-boot-docker .
